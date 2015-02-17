@@ -66,7 +66,6 @@ def _inject_css(path):
 
     """
     mycss = '$("head").append(\'<link rel="stylesheet" href="/nbextensions/' + _to_web(path) + '" type="text/css"/>\')'
-    print("injecting css:", mycss)
     #css = _read_file(path)
     #html = '<style type="text/css">\n{0:s}\n</style>'.format(css)
     #display_html(html, raw=True)
